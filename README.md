@@ -5,7 +5,7 @@
 
 ## 使用方法
 ### 下载项目
-1. 点击 [这里](phttps://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
+1. 点击 [这里](https://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
 2. 解压 zip
 ### 安装依赖
 1. 安装 Python3
