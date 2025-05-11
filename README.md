@@ -1,37 +1,106 @@
 # VOICEVOX 中文跨语种自动生成脚本
 
-#### 介绍
+## 介绍
 可使用拼音或汉字自动生成 VOICEVOX 中文跨语种调声
 
-#### 软件架构
-软件架构说明
+## 使用方法
+### 下载项目
+1. 点击 [这里](phttps://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
+2. 解压 zip
+### 安装依赖
+1. 安装 Python3
+2. 安装 pypinyin
+在终端输入 `pip install pypinyin` 安装
+### 运行
+1. 运行 `srszw.py`
+2. 用 VOICEVOX 打开 `output/output.vvproj`，如果能够正常打开，则说明生成成功
 
+## 生成自己的文本的跨语种
+### 1. 复制一份空模板
 
-#### 安装教程
+复制 `./examples/empty.hooay-srszw.json` ，重命名为 `你的文件名.hooay-srszw.json`
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 2. 通过模板编辑
 
-#### 使用说明
+打开 `你的文件名.hooay-srszw.json`，然后你将看到：
+```json
+{
+	"script_version": "0.1",
+	"app_version": "0.23.0",
+	"talk": [
+		{
+			"charactor":"shikokumetan",
+			"style": null,
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "你要生成的文字"
+			}
+		}
+	]
+}
+```
+一下是对各个项的解释：
+- `script_version`: 脚本版本，目前没有用
+- `app_version`: VOICEVOX 版本，一般情况下不需要修改
+- `talk`: 文本列表，存储每一个台词的信息，用 `,` 分割每个台词，用  `{` 和 `}` 包含每个台词
+- - `charactor`: 角色名，通常是角色名的罗马字，详见：`./charactors/vvx.json`
+- - `style`: 声线，除 `normal` 代表 `ノーマル` 外，其他都是声线的罗马字，详见：`./charactors/vvx.json`
+- - `speedScale`: 语速
+- - `pitchScale`: 音高
+- - `intonationScale`: 抑扬
+- - `volumeScale`: 音量
+- - `prePhonemeLength`: 开始无音
+- - `postPhonemeLength`: 终了无音
+- - `pauseLengthScale`: 停顿长度
+- - `text`: 台词的内容
+- - - `pinyin`: 拼音，如果为`null`，则使用 `zi` 的值，否则使用 `pinyin` 的值，拼音用空格分割
+- - - `zi`: 汉字，如果 `pinyin` 为`null`，则使用 `zi` 的值，否则使用 `pinyin` 的值，
+同时也是在 VOICEVOX 中显示的台词文本，可以混用拼音和汉字，拼音用空格分割，一句台词的开头和结尾不能有标点符号
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+修改之后保存
 
-#### 参与贡献
+### 3. 更改配置文件
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+打开 `config.json`，你将看到：
+```json
+{
+	"file": "./examples/example1.hooay-srszw.json",
+	"output": "./output/output.vvproj",
+	"loaded_charactor_lists": [
+		"./charactors/vvx.json"
+	],
+	"yunMuSpliting": "./yunMuSpliting/spliting.json",
+	"zhengTiRenDu": "./zhengTiRenDu/zhenTiRenDu.json",
+	"shengDiao": "./shengDiao/puTongHuaShengDiao.json",
+	"shengYun": "./shengYunConvInfo/zh_in_jp1.json",
+	"noYW": false,
+	"pitchRange": [5.0, 6.0],
+	"pitchRandom": 0.02,
+	"lengthRandom": 0.001
+}
+```
+以下是对各个项的解释：
+- `file`: 修改为你保存的 `.hooay-srszw.json` 文件的路径
+- `output`: 输出的 VOICEVOX 项目文件的位置
+- `loaded_charactor_lists`: 角色列表，默认只有 `vvx.json`，可添加其他基于 VOICEVOX 的引擎（例如 VOICEVOX NEMO）中的角色，需要自己转写，如果不需要其他引擎的角色，则不要修改
+- `yunMuSpliting`: 韵母拆分文件，一般不需要修改
+- `zhengTiRenDu`: 储存整体认读的文件，一般不需要修改
+- `shengDiao`: 储存声调相对音高信息的文件，一般不需要修改
+- `shengYun`: 储存声韵转换信息的文件，一般不需要修改
+- `noYW`: 不将 `y` 和 `w` 视为声母，为 `true` 时，不将 `y` 和 `w` 视为声母（事实上这个还有问题），为 `false` 时，将 `y` 和 `w` 视为声母
+- `pitchRange`: 声调相对音高的范围
+- `pitchRandom`: 音高的随机偏移
+- `lengthRandom`: 台词长度的随机偏移
 
+修改之后保存
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+###  4. 运行
+1. 运行 `srszw.py`
+2. 用 VOICEVOX 打开输出的文件，如果能够正常打开，则说明生成成功

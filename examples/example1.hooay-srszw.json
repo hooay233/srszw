@@ -1,0 +1,66 @@
+{
+	"script_version": "0.1",
+	"app_version": "0.23.0",
+	"talk": [
+		{
+			"charactor":"shikokumetan",
+			"style": null,
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "ni2好，这是yi2 ge4示例文件"
+			}
+		},
+		{
+			"charactor":"zundamon",
+			"style": "namidame",
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": "qiu2 qiu2 ni3 gei2 wo3 de5 xiang4 mu4 biao1 yi4 ke1 xing1",
+				"zi": "标星术人术中文脚本喵"
+			}
+		},
+		{
+			"charactor":"kasukabetsumugi",
+			"style": "normal",
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "感谢你的测试！"
+			}
+		},
+		{
+			"charactor":"zundamon",
+			"style": "normal",
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "术人术中文自动跨语种生成脚本的示例文件"
+			}
+		}
+	]
+}

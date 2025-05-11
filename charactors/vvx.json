@@ -1,0 +1,297 @@
+{
+	"engine_id": "074fc39e-678b-4c13-8916-ffca8d505d1d",
+	"shikokumetan": {
+		"id": "7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff",
+		"styles": {
+			"normal": 2,
+			"amaama": 0,
+			"tsuntsun": 6,
+			"sekushii": 4,
+			"sasayaki": 36,
+			"hisohiso": 37
+		},
+		"normalstyle": 2
+	},
+	"zundamon": {
+		"id": "388f246b-8c41-4ac1-8e2d-5d79f3ff56d9",
+		"styles": {
+			"normal": 3,
+			"amaama": 1,
+			"tsuntsun": 7,
+			"sekushii": 5,
+			"sasayaki": 22,
+			"hisohiso": 38,
+			"herohero": 75,
+			"namidame": 76
+		},
+		"normalstyle": 3
+	},
+	"kasukabetsumugi": {
+		"id": "35b2c544-660e-401e-b503-0e14c635303a",
+		"styles": {
+			"normal": 8
+		},
+		"normalstyle": 8
+	},
+	"ameharehau": {
+		"id": "3474ee95-c274-47f9-aa1a-8322163d96f1",
+		"styles": {
+			"normal": 10
+		},
+		"normalstyle": 10
+	},
+	"namineritsu": {
+		"id": "b1a81618-b27b-40d2-b0ea-27a9ad408c4b",
+		"styles": {
+			"normal": 9,
+			"queen": 65
+		},
+		"normalstyle": 9
+	},
+	"kurunotakehiro": {
+		"id": "c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f",
+		"styles": {
+			"normal": 11,
+			"yorokobi": 39,
+			"tsungire": 40,
+			"kanashimi": 41
+		},
+		"normalstyle": 11
+	},
+	"shirakamikotaro": {
+		"id": "e5020595-5c5d-4e87-b849-270a518d0dcf",
+		"styles": {
+			"futsuu": 12,
+			"wai": 32,
+			"bikubiku": 33,
+			"oko": 34,
+			"bien": 35
+		},
+		"normalstyle": 12
+	},
+	"aoyamaryusei": {
+		"id": "4f51116a-d9ee-4516-925d-21f183e2afad",
+		"styles": {
+			"normal": 13,
+			"nekketu": 81,
+			"fukigen": 82,
+			"yorokobi": 83,
+			"shittori": 84,
+			"kanashimi": 85
+		},
+		"normalstyle": 13
+	},
+	"meimeihimari": {
+		"id": "8eaad775-3119-417e-8cf4-2a10bfd592c8",
+		"styles": {
+			"normal": 14
+		},
+		"normalstyle": 14
+	},
+	"kyushusora": {
+		"id": "481fb609-6446-4870-9f46-90c4dd623403",
+		"styles": {
+			"normal": 16,
+			"amaama": 15,
+			"tsuntsun": 18,
+			"sekushii": 17,
+			"sasayaki": 19
+		},
+		"normalstyle": 16
+	},
+	"mochikosan": {
+		"id": "9f3ee141-26ad-437e-97bd-d22298d02ad2",
+		"styles": {
+			"normal": 20,
+			"sekushii_anko": 66,
+			"naki": 77,
+			"ikari": 78,
+			"yorokobi": 79,
+			"nonbiri": 80
+		},
+		"normalstyle": 20
+	},
+	"kenzakimiyu": {
+		"id": "1a17ca16-7ee5-4ea5-b191-2f02ace24d21",
+		"styles": {
+			"normal": 21
+		},
+		"normalstyle": 21
+	},
+	"whitecul": {
+		"id": "67d5d8da-acd7-4207-bb10-b5542d3a663b",
+		"styles": {
+			"normal": 23,
+			"tanoshii": 24,
+			"kanashii": 25,
+			"bien": 26
+		},
+		"normalstyle": 23
+	},
+	"goki": {
+		"id": "0f56c2f2-644c-49c9-8989-94e11f7129d0",
+		"styles": {
+			"ningen": 27,
+			"nuigurumi": 28,
+			"ningen_ikari": 87,
+			"oni": 88
+		},
+		"normalstyle": 27
+	},
+	"no7": {
+		"id": "044830d2-f23b-44d6-ac0d-b5d733caa900",
+		"styles": {
+			"normal": 29,
+			"anaunsu": 30,
+			"yomikikase": 31
+		},
+		"normalstyle": 29
+	},
+	"chibishikijii": {
+		"id": "468b8e94-9da4-4f7a-8715-a22a48844f9e",
+		"styles": {
+			"normal": 42
+		},
+		"normalstyle": 42
+	},
+	"sakuramiko": {
+		"id": "0693554c-338e-4790-8982-b9c6d476dc69",
+		"styles": {
+			"normal": 43,
+			"dai2keitai": 44,
+			"rori": 45
+		},
+		"normalstyle": 43
+	},
+	"sayosayo": {
+		"id": "a8cc6d22-aad0-4ab8-bf1e-2f843924164a",
+		"styles": {
+			"normal": 46
+		},
+		"normalstyle": 46
+	},
+	"nurserobottypet": {
+		"id": "882a636f-3bac-431a-966d-c5e6bba9f949",
+		"styles": {
+			"normal": 47,
+			"rakuraku": 48,
+			"kyofu": 49
+		},
+		"normalstyle": 47
+	},
+	"seikishibenizakura": {
+		"id": "471e39d2-fb11-4c8c-8d89-4b322d2498e0",
+		"styles": {
+			"normal": 51
+		},
+		"normalstyle": 51
+	},
+	"suzumatsuakashi": {
+		"id": "0acebdee-a4a5-4e12-a695-e19609728e30",
+		"styles": {
+			"normal": 52
+		},
+		"normalstyle": 52
+	},
+	"kigashimasorin": {
+		"id": "7d1e7ba7-f957-40e5-a3fc-da49f769ab65",
+		"styles": {
+			"normal": 53
+		},
+		"normalstyle": 53
+	},
+	"harukanana": {
+		"id": "ba5d2428-f7e0-4c20-ac41-9dd56e9178b4",
+		"styles": {
+			"normal": 54
+		},
+		"normalstyle": 54
+	},
+	"nekotsukaaru": {
+		"id": "00a5c10c-d3bd-459f-83fd-43180b521a44",
+		"styles": {
+			"normal": 55,
+			"ochitsuki": 56,
+			"ukiuki": 57
+		},
+		"normalstyle": 55
+	},
+	"nekotsukabii": {
+		"id": "c20a2254-0349-4470-9fc8-e5c0f8cf3404",
+		"styles": {
+			"normal": 58,
+			"ochitsuki": 59
+		},
+		"normalstyle": 58
+	},
+	"chugokurusagi": {
+		"id": "1f18ffc3-47ea-4ce0-9829-0576d03a7ec8",
+		"styles": {
+			"normal": 61,
+			"odoroki": 62,
+			"kowagari": 63,
+			"herohero": 64
+		},
+		"normalstyle": 61
+	},
+	"kuritamaron": {
+		"id": "04dbd989-32d0-40b4-9e71-17c920f2a8a9",
+		"styles": {
+			"normal": 67
+		},
+		"normalstyle": 67
+	},
+	"aierutan": {
+		"id": "dda44ade-5f9c-4a3a-9d2c-2a976c7476d9",
+		"styles": {
+			"normal": 68
+		},
+		"normalstyle": 68
+	},
+	"mitsubetsuhanamaru": {
+		"id": "287aa49f-e56b-4530-a469-855776c84a8d",
+		"styles": {
+			"normal": 69,
+			"genki": 70,
+			"sasayaki": 71,
+			"burikko": 72,
+			"boy": 73
+		},
+		"normalstyle": 69
+	},
+	"kotoyominia": {
+		"id": "97a4af4b-086e-4efd-b125-7ae2da85e697",
+		"styles": {
+			"normal": 74
+		},
+		"normalstyle": 74
+	},
+	"voidoll": {
+		"id": "0ebe2c7d-96f3-4f0e-a2e3-ae13fe27c403",
+		"styles": {
+			"normal": 89
+		},
+		"normalstyle": 89
+	},
+	"zonko": {
+		"id": "0156da66-4300-474a-a398-49eb2e8dd853",
+		"styles": {
+			"normal": 90,
+			"teiketsuatsu": 91,
+			"kakusei": 92,
+			"jikkyofu": 93
+		},
+		"normalstyle": 90
+	},
+	"chubutsurugi": {
+		"id": "4614a7de-9829-465d-9791-97eb8a5f9b86",
+		"styles": {
+			"normal": 94,
+			"ikari": 95,
+			"hisohiso": 96,
+			"odo-odo": 97,
+			"zetsubo_to_haiboku": 98
+		},
+		"normalstyle": 94
+	}
+}

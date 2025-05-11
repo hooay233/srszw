@@ -1,0 +1,21 @@
+{
+	"script_version": "0.1",
+	"app_version": "0.23.0",
+	"talk": [
+		{
+			"charactor":"zundamon",
+			"style": null,
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "术人术中文自动跨语种生成脚本测试，点赞过一百配布"
+			}
+		}
+	]
+}
