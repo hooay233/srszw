@@ -81,9 +81,9 @@
 			[null, "a", null, 0.1]
 		],
 		"e": [
-			{"loop": 10},
-			[null, "e", null, 0.01],
-			[null, "o", null, 0.01]
+			{"loop": 5},
+			[null, "o", null, 0.01],
+			[null, "e", null, 0.01]
 		],
 		"i": [
 			[null, "i", null, 0.1]
@@ -95,12 +95,15 @@
 			[null, "o", null, 0.1]
 		],
 		"yu": [
-			{"loop": 10},
+			{"loop": 5},
 			[null, "i", null, 0.01],
 			[null, "o", null, 0.01]
 		],
+		"uw": [
+			[null, "u", null, 0.1]
+		],
 		"il": [
-			{"loop": 10},
+			{"loop":10},
 			[null, "u", null, 0.006],
 			[null, "i", null, 0.004]
 		],
@@ -113,12 +116,12 @@
 			[null, "e", null, 0.1]
 		],
 		"er": [
-			{"loop": 10},
+			{"loop": 5},
 			[null, "a", null, 0.01],
 			[null, "u", null, 0.01]
 		],
 		"ae": [
-			{"loop": 10},
+			{"loop": 5},
 			[null, "a", null, 0.01],
 			[null, "e", null, 0.01]
 		],

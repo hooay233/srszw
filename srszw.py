@@ -72,6 +72,8 @@ def convertToMoras(convertInfo: list):
 		convertInfo[1] = [[]]+convertInfo[1]
 	for i in range(loopTimes):
 		for j in range(1, len(convertInfo[1])):
+			if j == 1 and convertInfo[0] and i==1:
+				continue
 			result.append({})
 			if convertInfo[1][j][0]:
 				result[-1]["consonant"] = convertInfo[1][j][0]
@@ -130,6 +132,10 @@ def addPitch(moras: list, tone: int):
 	global shengDiao, config
 	result = moras
 	for i in range(len(moras)):
+		if tone == 5:
+			# print(i, result[i])
+			result[i]["vowelLength"] *= 0.6
+			# print(result[i])
 		step = (i) / (len(moras)-1)
 		# print(i, len(moras)-1, step, tone)
 		result[i]["pitch"] = toneToPitch(tone, step)
