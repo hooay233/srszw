@@ -72,7 +72,9 @@ def convertToMoras(convertInfo: list):
 		convertInfo[1] = [[]]+convertInfo[1]
 	for i in range(loopTimes):
 		for j in range(1, len(convertInfo[1])):
-			if j == 1 and convertInfo[0] and i==1:
+			if i==0 and j == 1 and convertInfo[0] and not convertInfo[0][-1][1]:
+				continue
+			if convertInfo[1][j][-1] == "Bridge" and not convertInfo[0]:
 				continue
 			result.append({})
 			if convertInfo[1][j][0]:
@@ -219,7 +221,7 @@ def main():
 	global config, project
 	vvproj = converting(project)
 	with open(config["output"], "w", encoding="utf-8") as f:
-		json.dump(vvproj, f, ensure_ascii=False, indent=4)
+		json.dump(vvproj, f, ensure_ascii=False)
 	return 0
 
 if __name__ == "__main__":

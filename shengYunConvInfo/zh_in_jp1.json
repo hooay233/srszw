@@ -82,13 +82,14 @@
 		],
 		"e": [
 			{"loop": 5},
-			[null, "o", null, 0.01],
-			[null, "e", null, 0.01]
+			[null, "a", null, 0.01],
+			[null, "u", null, 0.01]
 		],
 		"i": [
 			[null, "i", null, 0.1]
 		],
 		"u": [
+			[null, "u", null, 0.008, "Bridge"],
 			["w", "u", 0.05, 0.05]
 		],
 		"o": [
@@ -117,8 +118,8 @@
 		],
 		"er": [
 			{"loop": 5},
-			[null, "a", null, 0.01],
-			[null, "u", null, 0.01]
+			[null, "o", null, 0.01],
+			[null, "e", null, 0.01]
 		],
 		"ae": [
 			{"loop": 5},
