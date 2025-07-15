@@ -58,6 +58,12 @@ div.innerHTML = `
 		  <option value="voidoll" ${item.charactor === "voidoll" ? "selected" : ""}>Voidoll</option>
 		  <option value="zonko" ${item.charactor === "zonko" ? "selected" : ""}>ぞん子</option>
 		  <option value="chubutsurugi" ${item.charactor === "chubutsurugi" ? "selected" : ""}>中部つるぎ</option>
+		  <option value="rito" ${item.charactor === "rito" ? "selected" : ""}>離途</option>
+		  <option value="kurosawakohaku" ${item.charactor === "kurosawakahaku" ? "selected" : ""}>黒沢冴白</option>
+		  <option value="yuureichan" ${item.charactor === "yuureichan" ? "selected" : ""}>ユーレイちゃん</option>
+		  <option value="touhokuzunko" ${item.charactor === "touhokuzunko" ? "selected" : ""}>東北ずん子</option>
+		  <option value="touhokukiritan" ${item.charactor === "touhokukiritan" ? "selected" : ""}>東北きりたん</option>
+		  <option value="touhokuitako" ${item.charactor === "touhokuitako" ? "selected" : ""}>東北イタコ</option>
         </select>
 		</label>
 		<input type="text" data-index="${index}" class="manualCharactorInput" value="${item.charactor !== "manual" ? "" : item.manualCharactor || ''}" style="display: ${item.charactor === "manual" ? "inline-block" : "none"}; width: 90%;"><br />

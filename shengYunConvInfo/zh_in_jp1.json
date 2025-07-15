@@ -104,14 +104,12 @@
 			[null, "u", null, 0.1]
 		],
 		"il": [
-			{"loop":5},
-			[null, "u", null, 0.012],
-			[null, "i", null, 0.008]
+			[null, "u", null, 0.1]
 		],
 		"ir": [
 			{"loop": 5},
-			[null, "u", null, 0.012],
-			[null, "i", null, 0.008]
+			[null, "u", null, 0.015],
+			[null, "i", null, 0.005]
 		],
 		"eh": [
 			[null, "e", null, 0.1]

@@ -1,0 +1,21 @@
+{
+  "script_version": "0.1",
+  "app_version": "0.23.0",
+  "talk": [
+    {
+      "charactor": "touhokukiritan",
+      "style": "嗯，你要生成的文字是什么呢",
+      "speedScale": 1,
+      "pitchScale": 0,
+      "intonationScale": 1,
+      "volumeScale": 1,
+      "prePhonemeLength": 0.1,
+      "postPhonemeLength": 0.1,
+      "pauseLengthScale": 1,
+      "text": {
+        "pinyin": null,
+        "zi": "你要生成的文字"
+      }
+    }
+  ]
+}

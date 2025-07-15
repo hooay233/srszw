@@ -5,5 +5,7 @@
 	"zhi": ["zh", "ir", "ir", "ir"],
 	"chi": ["ch", "ir", "ir", "ir"],
 	"shi": ["sh", "ir", "ir", "ir"],
-	"ri": ["r", "ir", "ir", "ir"]
+	"ri": ["r", "ir", "ir", "ir"],
+	"n": [null, "n", "n", "n"],
+	"ng": [null, "ng", "n", "n"]
 }

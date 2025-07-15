@@ -147,7 +147,7 @@ def addPitch(moras: list, tone: int):
 	return result
 
 def ziToPinyin(zi: str):
-	return (" ".join(pypy.lazy_pinyin(zi, style=pypy.Style.TONE3, strict=False, neutral_tone_with_five=True, tone_sandhi=True)))\
+	return (" ".join(pypy.lazy_pinyin(zi, style=pypy.Style.TONE3, strict=0, neutral_tone_with_five=True, tone_sandhi=True)))\
 		.split(" ")
 
 def generateKey():

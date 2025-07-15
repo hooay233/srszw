@@ -9,7 +9,11 @@ def generate(e: webui.event):
 		f .write(e.get_string())
 	with open(f"tmp/tmp_{port}.hooay-srszw.json", "r", encoding="utf-8") as f:
 		project = json.load(f)
-	vvproj = srszw.converting(project)
+	try:
+		vvproj = srszw.converting(project)
+	except Exception as e:
+		win.run(f"alert(`Error:\n{str(e)}`)")
+		return
 	with open(srszw.config["output"], "w", encoding="utf-8") as f:
 		json.dump(vvproj, f, ensure_ascii=False)
 

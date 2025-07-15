@@ -293,5 +293,52 @@
 			"zetsubo_to_haiboku": 98
 		},
 		"normalstyle": 94
+	},
+	"rito": {
+		"id":"3b91e034-e028-4acb-a08d-fbdcd207ea63",
+		"styles": {
+			"normal": 99,
+			"shiriasu": 101
+		},
+		"normalstyle": 99
+	},
+	"kurosawakohaku":{
+		"id":"0b466290-f9b6-4718-8d37-6c0c81e824ac",
+		"styles": {
+			"normal": 100
+		},
+		"normalstyle": 100
+	},
+	"yuureichan": {
+		"id": "462cd6b4-c088-42b0-b357-3816e24f112e",
+		"style": {
+			"normal": 102,
+			"amaama": 103,
+			"kanashimi": 104,
+			"sasayaki": 105,
+			"shikumochan": 106
+		},
+		"normalstyle": 102
+	},
+	"touhokuzunko": {
+		"id": "80802b2d-8c75-4429-978b-515105017010",
+		"styles": {
+			"normal": 107
+		},
+		"normalstyle": 107
+	},
+	"touhokukiritan": {
+		"id": "1bd6b32b-d650-4072-bbe5-1d0ef4aaa28b",
+		"styles": {
+			"normal": 108
+		},
+		"normalstyle": 108
+	},
+	"touhokuitako": {
+		"id": "ab4c31a3-8769-422a-b412-708f5ae637e8",
+		"styles": {
+			"normal": 109
+		},
+		"normalstyle": 109
 	}
 }
