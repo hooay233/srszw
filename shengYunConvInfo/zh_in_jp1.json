@@ -4,21 +4,21 @@
 			["p", null, 0.08, null]
 		],
 		"p": [
-			["p", null, 0.05, 0.008],
+			["p", "u", 0.05, 0.008],
 			["h", null, 0.09, null]
 		],
 		"d": [
 			["t", null, 0.08, null]
 		],
 		"t": [
-			["t", null, 0.05, 0.008],
+			["t", "o", 0.05, 0.008],
 			["h", null, 0.09, null]
 		],
 		"z": [
 			["ts", null, 0.08, null]
 		],
 		"c": [
-			["ts", null, 0.05, 0.008],
+			["ts", "u", 0.05, 0.008],
 			["h", null, 0.09, null]
 		],
 		"zh": [
@@ -39,7 +39,7 @@
 			["k", null, 0.08, null]
 		],
 		"k": [
-			["k", null, 0.05, 0.008],
+			["k", "u", 0.05, 0.008],
 			["h", null, 0.09, null]
 		],
 		"h": [
@@ -81,9 +81,9 @@
 			[null, "a", null, 0.1]
 		],
 		"e": [
-			{"loop": 5},
-			[null, "a", null, 0.01],
-			[null, "u", null, 0.01]
+			{"loop": 4},
+			[null, "a", null, 0.0125],
+			[null, "u", null, 0.0125]
 		],
 		"i": [
 			[null, "i", null, 0.1]
@@ -96,35 +96,35 @@
 			[null, "o", null, 0.1]
 		],
 		"yu": [
-			{"loop": 5},
-			[null, "i", null, 0.01],
-			[null, "o", null, 0.01]
+			{"loop": 4},
+			[null, "i", null, 0.0125],
+			[null, "o", null, 0.0125]
 		],
 		"uw": [
 			[null, "u", null, 0.1]
 		],
 		"il": [
-			{"loop":10},
-			[null, "u", null, 0.006],
-			[null, "i", null, 0.004]
+			{"loop":5},
+			[null, "u", null, 0.012],
+			[null, "i", null, 0.008]
 		],
 		"ir": [
-			{"loop": 10},
-			[null, "u", null, 0.006],
-			[null, "i", null, 0.004]
+			{"loop": 5},
+			[null, "u", null, 0.012],
+			[null, "i", null, 0.008]
 		],
 		"eh": [
 			[null, "e", null, 0.1]
 		],
 		"er": [
-			{"loop": 5},
-			[null, "o", null, 0.01],
-			[null, "e", null, 0.01]
+			{"loop": 4},
+			[null, "o", null, 0.0125],
+			[null, "e", null, 0.0125]
 		],
 		"ae": [
-			{"loop": 5},
-			[null, "a", null, 0.01],
-			[null, "e", null, 0.01]
+			{"loop": 4},
+			[null, "a", null, 0.0125],
+			[null, "e", null, 0.0125]
 		],
 		"n": [
 			[null, "N", null, 0.1]

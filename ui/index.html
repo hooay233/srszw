@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="icon.ico">
+	<title>术人术中文跨语种自动生成脚本 UI</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>术人术中文跨语种自动生成脚本 UI</h1>
+
+  <textarea id="jsonInput" rows="2" cols="100" placeholder="粘贴 JSON 数据...">{
+	"script_version": "0.1",
+	"app_version": "0.23.0",
+	"talk": [
+		{
+			"charactor":"shikokumetan",
+			"style": null,
+			"speedScale": 1,
+			"pitchScale": 0,
+			"intonationScale": 1,
+			"volumeScale": 1,
+			"prePhonemeLength": 0.1,
+			"postPhonemeLength": 0.1,
+			"pauseLengthScale": 1,
+			"text": {
+				"pinyin": null,
+				"zi": "你要生成的文字"
+			}
+		}
+	]
+}
+</textarea><br />
+  <textarea id="patterns" placeholder="输入台词" cols="100" rows="10"></textarea>
+  <input type="file" accept=".json" onchange="importFile(event)">
+  <button onclick="loadData()">加载数据</button>
+  <button onclick="readPatterns()">读取台词</button>
+  <div id="editor"></div>
+  <button onclick="saveData()">导出 JSON</button>
+  <button onclick="addEntry()">添加新句子</button>
+  <button onclick="webui.generate(JSON.stringify(jsonData, null, 2));alert(JSON.stringify(jsonData,null,2))">生成</button>
+</body>
+<script src="webui.js"></script>
+<script src="script.js"></script>
+<script>loadData()</script>
+</html>

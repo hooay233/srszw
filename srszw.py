@@ -3,17 +3,19 @@ import pypinyin.contrib.tone_convert as pypytc
 import json
 import random as rd
 
-# 加载配置文件
-config = json.load(open("config.json", "r", encoding="utf-8"))
-YunMuSplit = json.load(open(config["yunMuSpliting"], "r", encoding="utf-8"))
-shengDiao = json.load(open(config["shengDiao"], "r", encoding="utf-8"))
-zhengTiRenDu = json.load(open(config["zhengTiRenDu"], "r", encoding="utf-8"))
-shengYun = json.load(open(config["shengYun"], "r", encoding="utf-8"))
-kana = json.load(open("kana.json", "r", encoding="utf-8"))
-charactors = []
-for i in config["loaded_charactor_lists"]:
-	charactors.append(json.load(open(i, "r")))
-project = json.load(open(config["file"], "r", encoding="utf-8"))
+def loadConfig():
+	# 加载配置文件
+	global config, YunMuSplit, zhengTiRenDu, shengYun, kana, charactors, project, shengDiao
+	config = json.load(open("config.json", "r", encoding="utf-8"))
+	YunMuSplit = json.load(open(config["yunMuSpliting"], "r", encoding="utf-8"))
+	shengDiao = json.load(open(config["shengDiao"], "r", encoding="utf-8"))
+	zhengTiRenDu = json.load(open(config["zhengTiRenDu"], "r", encoding="utf-8"))
+	shengYun = json.load(open(config["shengYun"], "r", encoding="utf-8"))
+	kana = json.load(open("kana.json", "r", encoding="utf-8"))
+	charactors = []
+	for i in config["loaded_charactor_lists"]:
+		charactors.append(json.load(open(i, "r")))
+	project = json.load(open(config["file"], "r", encoding="utf-8"))
 
 def randLen():
 	global config
@@ -219,6 +221,7 @@ def converting(project: dict):
 
 def main():
 	global config, project
+	loadConfig()
 	vvproj = converting(project)
 	with open(config["output"], "w", encoding="utf-8") as f:
 		json.dump(vvproj, f, ensure_ascii=False)

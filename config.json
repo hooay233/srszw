@@ -9,7 +9,7 @@
 	"shengDiao": "./shengDiao/puTongHuaShengDiao.json",
 	"shengYun": "./shengYunConvInfo/zh_in_jp1.json",
 	"noYW": false,
-	"pitchRange": [5.0, 6.0],
+	"pitchRange": [5.5, 6.0],
 	"pitchRandom": 0.02,
 	"lengthRandom": 0.001
 }

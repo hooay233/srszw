@@ -1,0 +1,19 @@
+.entry {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+background-color: #ccffdd;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+border-radius: 2mm;
+}
+.entry input, .entry select {
+margin: 1mm 0;
+display: block;
+font-size: min(2vw, 2vh);
+}
+body {
+	transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.id{
+	color: #000a;
+}
