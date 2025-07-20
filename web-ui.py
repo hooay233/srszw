@@ -12,10 +12,11 @@ def generate(e: webui.event):
 	try:
 		vvproj = srszw.converting(project)
 	except Exception as e:
-		win.run(f"alert(`Error:\n{str(e)}`)")
+		win.run(f"alert(`错误:\n{str(e)}`)")
 		return
 	with open(srszw.config["output"], "w", encoding="utf-8") as f:
 		json.dump(vvproj, f, ensure_ascii=False)
+		win.run(f"alert(`生成完成，已输出至“{srszw.config['output']}”`)")
 
 webui.set_config(webui.Config.multi_client, True)
 webui.set_config(webui.Config.use_cookies, True)
