@@ -135,14 +135,19 @@ def addPitch(moras: list, tone: int):
 	"添加音高"
 	global shengDiao, config
 	result = moras
+	readylen = 0
+	fulllen = 0
+	for i in moras:
+		fulllen += i["vowelLength"]
 	for i in range(len(moras)):
+		readylen += moras[i]["vowelLength"]
+		step = readylen / fulllen
+		# print(i, len(moras)-1, step, tone)
+		result[i]["pitch"] = toneToPitch(tone, step)
 		if tone == 5:
 			# print(i, result[i])
 			result[i]["vowelLength"] *= 0.6
 			# print(result[i])
-		step = (i) / (len(moras)-1)
-		# print(i, len(moras)-1, step, tone)
-		result[i]["pitch"] = toneToPitch(tone, step)
 		#result[i]["pitch"] = 6.0 + randPit()
 	return result
 
