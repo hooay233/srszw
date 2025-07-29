@@ -39,8 +39,8 @@ jobs:
         run: |
           # NOTE: put your own distribution build steps here.
           python -m pip install pyinstaller tk
-          pyinstall -F srszw.py
-          pyinstall -F tk-ui.py
+          pyinstaller -F srszw.py
+          pyinstaller -F tk-ui.py
 
       - name: Upload distributions
         uses: actions/upload-artifact@v4
