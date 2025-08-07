@@ -38,7 +38,7 @@ jobs:
       - name: Build release distributions
         run: |
           # NOTE: put your own distribution build steps here.
-          python -m pip install pyinstaller webui2
+          python -m pip install pyinstaller webui2 pypinyin
           pyinstaller -F web-ui.py
 
       - name: Upload distributions
