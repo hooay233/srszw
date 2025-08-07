@@ -8,7 +8,7 @@
 1. 点击 [这里](https://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
 2. 解压 zip
 ### 安装依赖
-1. 安装 Python3
+1. 安装 [Python3](https://python.org)
 2. 安装 pypinyin
 在终端输入 `pip install pypinyin` 安装
 ### 运行
@@ -97,7 +97,7 @@
 - `noYW`: 不将 `y` 和 `w` 视为声母，为 `true` 时，不将 `y` 和 `w` 视为声母（事实上这个还有问题），为 `false` 时，将 `y` 和 `w` 视为声母
 - `pitchRange`: 声调相对音高的范围
 - `pitchRandom`: 音高的随机偏移
-- `lengthRandom`: 台词长度的随机偏移
+- `lengthRandom`: 音素长度的随机偏移
 
 修改之后保存
 
@@ -106,11 +106,19 @@
 2. 用 VOICEVOX 打开输出的文件，如果能够正常打开，则说明生成成功
 
 ## 图形化界面
-### 安装webui2
+### webui
+1. 安装webui2
 运行 `pip install webui2` 进行安装
-### 运行
-运行 `python web-ui.py`
+2. 运行
+`python web-ui.py`
+
+### tkinter
+运行 `python tk_ui.py`，有的系统可能要先安装tkinter
 
 > 注：
-> - Vivaldi 浏览器的单独窗口运行无法弹出弹窗，可以复制终端中的链接用 Vivaldi 浏览器正常模式下打开
-> - 图形化界面的前端是我使用 AI 生成的
+> - 有些浏览器的单独窗口运行无法弹出弹窗，可以复制终端中的链接用浏览器正常模式下打开
+> - 如果生成的朗读起来声音沙哑或无法发声，可尝试修改“音高”和“抑扬”
+> - 图形化界面的前端是我使用 AI 生成的，并手动修改 bug
+> - 本人代码水平并不好，欢迎批评，但也请保持友善
+----------
+> 本项目使用 WTFPL 协议，属于自由软件，可以自由使用，无需署名或专门授权。但该项目只负责生成项目文件，若使用 VOICEVOX 一类软件合成音频，仍需要遵循其协议

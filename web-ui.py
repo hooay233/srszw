@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from webui import webui
 import os
 import json
