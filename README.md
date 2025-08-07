@@ -14,6 +14,10 @@
 - - Linux: [下载](https://gitee.com/hooay233/srszw-script/releases/download/v0.1/srszw-0.1-gnu-built.zip)
 - - MacOS: [下载](https://gitee.com/hooay233/srszw-script/releases/download/v0.1/srszw-0.1-mac-built.zip)
 
+下载并解压后，运行名为 web-ui 的可执行文件，或运行名为 tk_ui 的可执行文件，来启动图形化界面
+也可运行名为 srszw 的可执行文件，不启动图形化界面，参考 [这个](#生成自己的文本的跨语种)
+若无法运行，可尝试 [下面](#使用方法) 的方法运行
+
 ## 使用方法
 ### 下载项目
 1. 点击 [这里](https://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
