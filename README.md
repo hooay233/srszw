@@ -3,6 +3,17 @@
 ## 介绍
 可使用拼音或汉字自动生成 VOICEVOX 中文跨语种调声
 
+## 预编译版本
+> 仅有 Windows, Linux, MacOS 的 x86_64 的预编译版本
+- GitHub:
+- - Windows: [下载](https://github.com/hooay233/srszw/releases/download/v0.1/srszw-0.1-win-built.zip)
+- - Linux: [下载](https://github.com/hooay233/srszw/releases/download/v0.1/srszw-0.1-gnu-built.zip)
+- - MacOS: [下载](https://github.com/hooay233/srszw/releases/download/v0.1/srszw-0.1-mac-built.zip)
+- Gitee(中国大陆用户在这下载):
+- - Windows: [下载](https://gitee.com/hooay233/srszw-script/releases/download/v0.1/srszw-0.1-win-built.zip)
+- - Linux: [下载](https://gitee.com/hooay233/srszw-script/releases/download/v0.1/srszw-0.1-gnu-built.zip)
+- - MacOS: [下载](https://gitee.com/hooay233/srszw-script/releases/download/v0.1/srszw-0.1-mac-built.zip)
+
 ## 使用方法
 ### 下载项目
 1. 点击 [这里](https://gitee.com/hooay233/srszw-script/repository/archive/master.zip) 下载 zip
